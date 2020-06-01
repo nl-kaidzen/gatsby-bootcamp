@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.container {
+    display: flex;
+    max-width: 750px;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.content {
+    flex-grow: 1;
+}
